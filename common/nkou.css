@@ -3,13 +3,13 @@
 
 body{
     margin:0 auto;
-    width:1440px;
+    width:100%;
     font-family:sans-serif;
 }
 
 /*ーーヘッダー固定ーー*/
 #header_fixed{
-    width:1440px;
+    width:100%;
     position: fixed;
     opacity: 0.8;
 
@@ -90,7 +90,7 @@ body{
 
 header{
     background-color: #F7F7F7;
-    width:1440px;
+    width:100%;
     margin:0;
 }
 #header{
@@ -296,7 +296,7 @@ header a{
 /*ーーーーーーページメインーーーーーー*/
 
 #pagemainhead{
-    width:1440px;
+    width:100%;
 }
 
 #pagemainhead #pagemainheadlist{
@@ -345,7 +345,7 @@ header a{
 }
 
 #pagemainheadimage{
-    width:1440px;
+    width:100%;
     border-bottom: 1px solid #cccccc;
 }
 #pagemainheadimage p{
@@ -593,7 +593,7 @@ header a{
 /*ーーページメイン　１つ目ーー*/
 
 #pagebodymain_first{
-    width:1440px;
+    width:100%;
     background-color: #F7F7F7;
     padding-bottom:50px;
 }
@@ -793,12 +793,12 @@ header a{
 /*ページボディTETRIRY アドバンスコース引用 画像右側ver*/
 
 #pagebodymain_tertiary .advanced_program_second{
-    width:1440px;
+    width:100%;
     background-color:#F7F7F7;
     padding:0px 0 50px 0;
 }
 #pagebodymain_tertiary #advanced_program_second_backgroundoff{
-    width:1440px;
+    width:100%;
     background-color:#ffffff;
     margin:0;
 }
@@ -818,7 +818,7 @@ header a{
 
 /*ページボディTETRIRY アドバンスコース引用 画像左側ver*/
 #pagebodymain_tertiary .tertiary_imageleft{
-    width:1440px;
+    width:100%;
     background-color:#ffffff;
 }
 
@@ -828,7 +828,7 @@ header a{
 }
 
 #pagebodymain_tertiary #tertiary_imageleft_sub{
-    width:1440px;
+    width:100%;
     background-color:#f7f7f7;
     margin:0;
     padding-top:100;
@@ -852,7 +852,7 @@ header a{
 /*ーーーーーメッセージリストーーーーー*/
 
 #message_list{
-    width:1440px;
+    width:100%;
     background-color:#f7f7f7;
 }
 
@@ -968,7 +968,7 @@ header a{
 /*ページ問い合わせのところ*/
 
 #page_info{
-    width:1440px;
+    width:100%;
     height:250px;
     background-image: url(../images/page_info1.png);
 }
@@ -1255,7 +1255,7 @@ header a{
 /*ーーーーフッダーーーーー*/
 
 footer{
-    width:1440px;
+    width:100%;
     background-color:black;
     margin-bottom:20px;
     padding:8 0;
