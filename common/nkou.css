@@ -317,16 +317,16 @@ header a{
     
 }
 
-#pagemainhead #pagemainheadlist li:before{
+#pagemainhead #pagemainheadlist li a:before{
     content:"＼";
     width:5px;
     height:5px;
     display: inline-block;
     color:#555375;
-    position: relative;top:15px;right:15px;
+    position: absolute;left:-10px;
 }
 
-#pagemainhead #pagemainheadlist li:first-child:before{
+#pagemainhead #pagemainheadlist li .pagemainheadlist_first:first-child::before{
     content:none;
 }
 
@@ -348,6 +348,7 @@ header a{
 #pagemainheadimage{
     width:100%;
     border-bottom: 1px solid #cccccc;
+    object-fit: cover;
 }
 #pagemainheadimage p{
     width:1040px;
