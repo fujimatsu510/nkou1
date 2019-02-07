@@ -159,7 +159,7 @@ header a{
 
 #pagehead #pageheadtitle{
     display:inline-block;
-    margin:20px 490px 0 0;
+    margin:20px 480px 0 0;
 }
 
 #pagehead #pageheadnumber{
@@ -314,6 +314,7 @@ header a{
     display: inline-block;
     height: 30px;
     margin:0px 10px;
+    position:relative;
     
 }
 
